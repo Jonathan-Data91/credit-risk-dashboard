@@ -1,6 +1,6 @@
-# 📊 Credit Risk Analysis Dashboard
+#  Credit Risk Analysis Dashboard
 
-## 🧠 Project Overview
+##  Project Overview
 This project is a complete Credit Risk Analysis workflow using Excel, SQL, and Tableau.
 
 The goal is to analyze customer data and identify factors that influence loan default risk.
@@ -9,7 +9,7 @@ We explore income levels, loan amounts, and loan grades to understand risk patte
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 - Excel → Data exploration and preprocessing
 - MySQL → Data storage, queries, and analysis
 - Tableau → Data visualization and dashboard creation
@@ -17,12 +17,12 @@ We explore income levels, loan amounts, and loan grades to understand risk patte
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 
 ---
 
-## 🗄️ SQL Workflow
+##  SQL Workflow
 
 The SQL part includes:
 
@@ -37,7 +37,7 @@ SELECT loan_grade, AVG(loan_status) AS default_rate
 FROM credit_risk
 GROUP BY loan_grade;
 
-📊 Dashboard Preview
+ Dashboard Preview
 
 🔍 Key Insights
 Lower income groups tend to show higher default rates
@@ -45,7 +45,7 @@ Loan grade is strongly correlated with credit risk
 Risk is not evenly distributed across income categories
 A small group of customers accounts for most defaults
 
-📈 Business Impact
+ Business Impact
 
 This analysis can help financial institutions:
 
@@ -54,12 +54,12 @@ Improve credit scoring models
 Reduce loan default rates
 Make better lending decisions
 
-🚀 Future Improvements
+ Future Improvements
 Build a machine learning model for default prediction
 Automate data pipeline from SQL to Tableau
 Add real-time dashboard updates
 
-👤 Author
+ Author
 
 Jonathan Rambeloson
 Aspiring Data Analyst
