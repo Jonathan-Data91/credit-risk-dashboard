@@ -1,0 +1,9 @@
+Min_income,4000
+Max_income,6000000
+Average_income,66092
+Median_income,55000
+Tolal_client,32416
+Low_income (<40k),8568
+Middle_income (40k–80k),16232
+High_income (80k–150k),6484
+Very_high_income (>150k),1132
